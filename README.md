@@ -1,6 +1,6 @@
 # Snips-Google-Calendar
 
-Ce module développer pour Snips vous permet de gérer votre calendrier Google.
+Ce module développé pour Snips vous permet de gérer votre calendrier Google.
 Il permet actuellement : 
   - de récupérer et vous énoncer les différents événements à venir de votre calendrier,
   - Ajouter de nouveaux événements à votre calendrier.
