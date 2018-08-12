@@ -22,6 +22,7 @@ import locale
 import random
 from functions.date_manager import Date
 import sys
+import importlib
 
 class SentenceGeneratorCalendar(object):
     @staticmethod
@@ -38,8 +39,8 @@ class SentenceGeneratorCalendar(object):
         :return: an introduction string
         """
         
-        reload(sys)
-        sys.setdefaultencoding('utf8')
+        #importlib.reload(sys)
+        #sys.setdefaultencoding('utf8')
         
         text = ""
         

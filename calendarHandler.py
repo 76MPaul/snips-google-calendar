@@ -19,9 +19,9 @@
 import datetime, pytz
 import settings
 import json
-from calendar_manager import Calendar
+from modules.calendar.calendar_manager import Calendar
 from functions.date_manager import Date
-from sentenceGeneratorCalendar import SentenceGeneratorCalendar
+from modules.calendar.sentenceGeneratorCalendar import SentenceGeneratorCalendar
 
 class calendarHandler:
     @staticmethod

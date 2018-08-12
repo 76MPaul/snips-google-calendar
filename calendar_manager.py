@@ -22,7 +22,7 @@ from httplib2 import Http
 from oauth2client import file, client, tools
 import datetime
 import settings
-from sentenceGeneratorCalendar import SentenceGeneratorCalendar
+from modules.calendar.sentenceGeneratorCalendar import SentenceGeneratorCalendar
 import dateparser
 import json
 
@@ -98,7 +98,7 @@ class Calendar:
         return text
     
     def _interval(self, timeMin, timeMax):
-        if timeMax <> None:
+        if timeMax != None:
             ptimeMin = timeMin.replace(tzinfo=None)
             ptimeMax = timeMax.replace(tzinfo=None)
             delta_days = (ptimeMax - ptimeMin).days
